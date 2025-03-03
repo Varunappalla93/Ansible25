@@ -2,14 +2,20 @@
   hosts: localhost
   vars_files:
     - variables.yaml
+  vars_prompt:
+    - name: PERSON
+      prompt: please enter your name
+      private: false
+    - name: WISHES
+      prompt: please enter your wishes
+      private: true
   vars: 
-    PERSON="VARUN from play"
-    WISHES="MRG from play""
-
+    PERSON: "VARUN from play"
+    WISHES: "MRG from play"
   tasks: 
   - name: check variables
-  vars: 
-    PERSON="VARUN from task"
-    WISHES="MRG from task"
-  ansible.builtin.debug:
-    msg: "hello {{PERSON}}, Good {{WISHES}}"
+    vars: 
+      PERSON: "VARUN from task"
+      WISHES: "MRG from task"
+    ansible.builtin.debug:
+      msg: "hello {{PERSON}}, Good {{WISHES}}"
