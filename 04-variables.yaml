@@ -1,6 +1,8 @@
 - name: variables from Play level
   hosts: localhost
+  vars:
+    course: "devops"
   tasks: 
     -name: check variables
     ansible.builtin.debug:
-      msg:"hello I am learning devops"
+      msg:"hello I am learning {{course}}"
