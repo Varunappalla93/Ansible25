@@ -14,14 +14,14 @@
     Trainer: true  # boolean type
   tasks:
     - name: print name key-value pair
-      ansible.builtin.ping:
+      ansible.builtin.debug:
         msg: "name is: {{name}}"
     - name: print skills list
-      ansible.builtin.ping:
+      ansible.builtin.debug:
         msg: "Skills are: {{Skills}}"
     - name: print experience map
-      ansible.builtin.ping:
+      ansible.builtin.debug:
         msg: "Experiences are: {{Experience}}"
    - name: print Trainer boolean
-      ansible.builtin.ping:
+      ansible.builtin.debug:
         msg: "is he trainer: {{Trainer}}"
