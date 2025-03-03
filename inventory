@@ -8,6 +8,8 @@ localhost
 course="AWS DEVOPS from inventory"
 trainer="Siva Kumar"
 
+PERSON="VARUN from inventory"
+WISHES="Morning from inventory"
 
 [web]
 54.87.189.137
