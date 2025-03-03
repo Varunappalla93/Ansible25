@@ -15,13 +15,13 @@
   tasks:
     - name: print name key-value pair
       ansible.builtin.ping:
-        msg: "name is {{name}}"
+        msg: "name is: {{name}}"
     - name: print skills list
       ansible.builtin.ping:
-        msg: "Skills are {{Skills}}"
+        msg: "Skills are: {{Skills}}"
     - name: print experience map
       ansible.builtin.ping:
-        msg: "Experiences are {{Experience}}"
+        msg: "Experiences are: {{Experience}}"
    - name: print Trainer boolean
       ansible.builtin.ping:
-        msg: "Trainer is {{Trainer}}"
+        msg: "is he trainer: {{Trainer}}"
