@@ -8,7 +8,7 @@
       private: false
     - name: WISHES
       prompt: please enter your wishes
-      private: true
+      private: false
   vars: 
     PERSON: "VARUN from play"
     WISHES: "MRG from play"
