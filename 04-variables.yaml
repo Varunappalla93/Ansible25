@@ -4,6 +4,9 @@
     course: "devops"
     trainer: "siva"
   tasks: 
-    -name: check variables
-    ansible.builtin.debug:
-      msg:"hello I am learning {{course}} and trainer is {{trainer}}"
+    - name: check variables
+      ansible.builtin.debug:
+        msg:"hello I am learning {{course}} and trainer is {{trainer}}"
+
+
+#  ansible-playbook -i inventory -e ansible_user=centos -e ansible_password=DevOps321 04-variables.yaml
