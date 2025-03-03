@@ -19,3 +19,7 @@
       WISHES: "MRG from task"
     ansible.builtin.debug:
       msg: "hello {{PERSON}}, Good {{WISHES}}"
+
+
+# first pref is command line args, second pref is task level vars, third pref is from file level,
+# fourth pref is from prompt level, fifth pref is from play level.
