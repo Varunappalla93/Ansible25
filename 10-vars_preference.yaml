@@ -22,4 +22,5 @@
 
 
 # first pref is command line args, second pref is task level vars, third pref is from file level,
-# fourth pref is from prompt level, fifth pref is from play level, sixth pref is from inventory level.
+# fourth pref is from prompt level, fifth pref is from play level, sixth pref is from inventory level, seventh
+# pref is from roles level.
