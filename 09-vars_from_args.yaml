@@ -8,4 +8,4 @@
 
 
 # ansible-playbook -i inventory -e ansible_user=centos -e ansible_password=DevOps321 
-# -e "PERSON=SIVA" -e "WISHES=MRG" 09-vars_from_args.yaml
+# -e "PERSON=SIVA" -e "WISHES=MRG" 09-vars_from_args.yamlclear
