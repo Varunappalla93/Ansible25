@@ -2,7 +2,8 @@
   hosts: localhost
   vars:
     course: "devops"
+    trainer: "siva"
   tasks: 
     -name: check variables
     ansible.builtin.debug:
-      msg:"hello I am learning {{course}}"
+      msg:"hello I am learning {{course}} and trainer is {{trainer}}"
