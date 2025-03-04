@@ -2,7 +2,7 @@
   hosts: localhost
   become: yes
   tasks:
-    - name: print person
+    - name: print package
       ansible.builtin.package:
         name: "{{item}}"
         state: present
