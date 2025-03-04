@@ -1,0 +1,4 @@
+- name: conditions
+  hosts: localhost
+  tasks:
+    - name: check roboshop user exists or not
